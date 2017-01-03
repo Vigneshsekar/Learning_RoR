@@ -37,3 +37,12 @@ h1, h2, h3 {
 .navbar {
     border:none;
 }
+
+.navbar-default .navbar-brand,
+.navbar-default .navbar-nav > li > a {
+  color: white;
+  &:hover {
+    color: white;
+    opacity: 0.75;
+  }
+}
